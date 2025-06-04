@@ -79,7 +79,7 @@ export default function FreshFlowersPage() {
       description: "Elegant wedding garland handcrafted for special ceremonies",
       price: "₹850",
       unit: "piece",
-      imagePath: "/assets/wedding-garland.webp",
+      imagePath: "/assets/wedding-garlands.jpg",
       slug: "wedding-garland",
       category: "garlands",
     },
