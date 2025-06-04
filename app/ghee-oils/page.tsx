@@ -149,7 +149,7 @@ export default function GheeOilsPage() {
               <div className="relative">
                 <div className="relative aspect-square overflow-hidden rounded-3xl border-8 border-white shadow-xl">
                   <Image
-                    src="/assets/"
+                    src="/assets/ghee-oil.webp"
                     width={600}
                     height={600}
                     alt="Pure ghee and oils collection"
