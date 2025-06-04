@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 19.6%; /* #323232 */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 19.6%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 19.6%;
+    --primary: 0 0% 19.6%; /* #323232 */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 25 20% 85%; /* #DDD0C8 */
+    --secondary-foreground: 0 0% 19.6%;
+    --muted: 25 20% 96%;
+    --muted-foreground: 0 0% 42%;
+    --accent: 25 20% 90%;
+    --accent-foreground: 0 0% 19.6%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 25 20% 90%;
+    --input: 25 20% 90%;
+    --ring: 0 0% 19.6%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 19.6%;
+    --foreground: 25 20% 85%;
+    --card: 0 0% 19.6%;
+    --card-foreground: 25 20% 85%;
+    --popover: 0 0% 19.6%;
+    --popover-foreground: 25 20% 85%;
+    --primary: 25 20% 85%;
+    --primary-foreground: 0 0% 19.6%;
+    --secondary: 0 0% 28%;
+    --secondary-foreground: 25 20% 85%;
+    --muted: 0 0% 28%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 0 0% 28%;
+    --accent-foreground: 25 20% 85%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 0 0% 28%;
+    --input: 0 0% 28%;
+    --ring: 25 20% 85%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-20px) translateX(10px);
+  }
+}
+
+@keyframes float-medium {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-15px) translateX(-10px);
+  }
+}
+
+@keyframes float-fast {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0);
+  }
+  50% {
+    transform: translateY(-10px) translateX(5px);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite;
+}
+
+.animate-float-medium {
+  animation: float-medium 6s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: float-fast 4s ease-in-out infinite;
+}
