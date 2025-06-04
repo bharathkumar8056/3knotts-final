@@ -302,7 +302,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Premium dried flowers for decoration and potpourri",
         price: "₹220",
         unit: "200g",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/dried-bot-banner.webp"],
         specifications: [
           "Type: Mixed dried flowers",
           "Weight: 200g pack",
@@ -319,7 +319,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Natural sola balls for crafts and decorations",
         price: "₹180",
         unit: "50 pieces",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/sola-balls.jpeg"],
         specifications: [
           "Type: Natural sola wood",
           "Quantity: 50 pieces",
