@@ -136,7 +136,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Traditional garland for daily pooja and temple rituals",
         price: "₹280",
         unit: "piece",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/pooja-garland.jpg"],
         specifications: [
           "Length: 3-4 feet",
           "Flowers: Mixed traditional flowers",
@@ -158,7 +158,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Elegant wedding garland handcrafted for special ceremonies",
         price: "₹850",
         unit: "piece",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/wedding-garland.webp"],
         specifications: [
           "Length: 5-6 feet",
           "Flowers: Premium roses and jasmine",
@@ -180,7 +180,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Traditional Andal style temple garland for divine offerings",
         price: "₹650",
         unit: "piece",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/andal-garland.jpg"],
         specifications: [
           "Length: 4-5 feet",
           "Flowers: Traditional temple flowers",
