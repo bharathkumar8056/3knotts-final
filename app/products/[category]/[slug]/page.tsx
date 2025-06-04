@@ -17,7 +17,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Fresh yellow roses, perfect for celebrations and decorations",
         price: "₹180",
         unit: "100g",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/rose-yellow.jpg"],
         specifications: [
           "Freshness: Picked daily at dawn",
           "Origin: Local farms in Tamil Nadu",
@@ -39,7 +39,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Premium red roses for special occasions and romantic gestures",
         price: "₹200",
         unit: "100g",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/red-rose.jpg"],
         specifications: [
           "Freshness: Picked daily at dawn",
           "Origin: Premium rose gardens",
@@ -61,7 +61,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Traditional samanthi flowers for daily pooja and rituals",
         price: "₹90",
         unit: "100g",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/samanthi.jpg"],
         specifications: [
           "Freshness: Picked before sunrise",
           "Origin: Traditional flower farms",
@@ -78,7 +78,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Fresh samangee flowers, premium quality for temple offerings",
         price: "₹150",
         unit: "100g",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/samangee.webp"],
         specifications: [
           "Freshness: Early morning harvest",
           "Origin: Sacred flower gardens",
@@ -100,7 +100,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Premium quality fresh jasmine flowers, handpicked daily",
         price: "₹120",
         unit: "100g",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/malli.jpeg"],
         specifications: [
           "Freshness: Picked before sunrise",
           "Origin: Traditional jasmine farms",
@@ -117,7 +117,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Traditional mullai flowers for pooja and spiritual ceremonies",
         price: "₹110",
         unit: "100g",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/mullai.jpg"],
         specifications: [
           "Freshness: Morning harvest",
           "Origin: Traditional farms",
@@ -199,7 +199,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Fresh mango leaves for traditional decorations and ceremonies",
         price: "₹45",
         unit: "bunch",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/mango leaves.jpeg"],
         specifications: [
           "Freshness: Cut fresh daily",
           "Origin: Organic mango trees",
@@ -227,7 +227,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Sacred tulasi leaves for daily pooja and spiritual rituals",
         price: "₹35",
         unit: "bunch",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/tulasi.jpg"],
         specifications: [
           "Freshness: Fresh daily harvest",
           "Origin: Sacred tulasi plants",
@@ -244,7 +244,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Traditional arugampil leaves for temple ceremonies",
         price: "₹55",
         unit: "bunch",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/arugampil.jpg"],
         specifications: [
           "Freshness: Fresh daily cut",
           "Origin: Traditional plants",
@@ -261,7 +261,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Large fresh banana leaves for traditional serving and ceremonies",
         price: "₹25",
         unit: "piece",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/banana-leaf.webp"],
         specifications: [
           "Freshness: Cut fresh daily",
           "Origin: Organic banana plants",
@@ -283,7 +283,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Traditional palm leaves for decorations and crafts",
         price: "₹40",
         unit: "10 pieces",
-        images: ["/placeholder.svg?height=600&width=600"],
+        images: ["/assets/palm-leaves.jpg"],
         specifications: [
           "Freshness: Fresh cut",
           "Origin: Traditional palm trees",
