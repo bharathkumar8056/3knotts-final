@@ -78,7 +78,7 @@ export default function DriedFlowersBotanicalsPage() {
       description: "Nutritious dried moringa leaves for health benefits",
       price: "₹220",
       unit: "100g",
-      imagePath: "/assets/",
+      imagePath: "/assets/moringa.jpeg",
       slug: "moringa-leaves-dried",
       category: "dried-flowers-botanicals",
     },
@@ -87,7 +87,7 @@ export default function DriedFlowersBotanicalsPage() {
       description: "Premium quality cinnamon sticks for cooking and aromatherapy",
       price: "₹320",
       unit: "100g",
-      imagePath: "/assets/",
+      imagePath: "/assets/cinnamon-sticks.jpeg",
       slug: "cinnamon-sticks",
       category: "dried-flowers-botanicals",
     },
@@ -96,7 +96,7 @@ export default function DriedFlowersBotanicalsPage() {
       description: "Curated mix of traditional dried herbs",
       price: "₹280",
       unit: "200g",
-      imagePath: "/assets/",
+      imagePath: "/assets/other-herbs.jpeg",
       slug: "other-herbs",
       category: "dried-flowers-botanicals",
     },
@@ -105,7 +105,7 @@ export default function DriedFlowersBotanicalsPage() {
       description: "Collection of natural sea shells for decoration",
       price: "₹450",
       unit: "box",
-      imagePath: "/assets/",
+      imagePath: "/assets/sea-shell.jpeg",
       slug: "sea-shell-items-box",
       category: "dried-flowers-botanicals",
     },
@@ -114,7 +114,7 @@ export default function DriedFlowersBotanicalsPage() {
       description: "Aromatic potpourri mix for home fragrance",
       price: "₹350",
       unit: "300g",
-      imagePath: "/assets/",
+      imagePath: "/assets/potpui.jpg",
       slug: "potpourri-items",
       category: "dried-flowers-botanicals",
     },
@@ -206,7 +206,7 @@ export default function DriedFlowersBotanicalsPage() {
               <div className="relative">
                 <div className="relative aspect-square overflow-hidden rounded-3xl border-8 border-white shadow-xl">
                   <Image
-                    src="/assets/"
+                    src="/assets/dried-bot-banner.webp"
                     width={600}
                     height={600}
                     alt="Dried flowers and botanicals collection"
