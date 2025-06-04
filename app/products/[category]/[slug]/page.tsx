@@ -158,7 +158,7 @@ const getProductData = (category: string, slug: string) => {
         description: "Elegant wedding garland handcrafted for special ceremonies",
         price: "₹850",
         unit: "piece",
-        images: ["/assets/wedding-garlands.jpg"],
+        images: ["/assets/wedding-garlands.jpeg"],
         specifications: [
           "Length: 5-6 feet",
           "Flowers: Premium roses and jasmine",
